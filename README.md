@@ -47,3 +47,14 @@ To run this project, you need:
 - **Scapy Library**: Install it using pip:
   ```bash
   pip install scapy
+  pip install rich
+
+  git clone https://github.com/your-repo/packet-sniffer.git
+  cd packet-sniffer
+
+
+
+---
+
+## Usage
+- 1. Run the script with the required arguments:
