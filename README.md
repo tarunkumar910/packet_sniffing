@@ -21,7 +21,7 @@ The **Packet Sniffer Tool** is a Python-based utility that uses the `Scapy` libr
 ## Screenshots
 
 <h1 align="left">
-  <img src="image/Screenshot 2025-01-14 121948.png" alt="Task_Manger" width="700px"></a>
+  <img src="image.png" alt="Packet Sniffer" width="700px"></a>
   <br>
 </h1>
 
