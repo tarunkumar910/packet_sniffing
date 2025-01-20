@@ -75,7 +75,7 @@ def process_sniffed_packet(packet):
 
 values = get_values()
 
-
+console.print(Panel("[bold magenta]Packet Sniffer[/bold magenta]", border_style="cyan", expand=False))
 
 console.print(f"[bold cyan]Starting packet sniffer on interface:[/bold cyan] [yellow]{values.interface}[/yellow]")
 try:
