@@ -16,6 +16,15 @@
 
 The **Packet Sniffer Tool** is a Python-based utility that uses the `Scapy` library to capture and analyze network packets in real-time. This tool helps in monitoring HTTP traffic, detecting sensitive keywords like `username` and `password`, and provides insights into network activity for educational or penetration testing purposes.
 
+
+
+## Screenshots
+
+<h1 align="left">
+  <img src="image/Screenshot 2025-01-14 121948.png" alt="Task_Manger" width="700px"></a>
+  <br>
+</h1>
+
 ---
 
 ## Features
