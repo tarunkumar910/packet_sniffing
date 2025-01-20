@@ -60,14 +60,14 @@ To run this project, you need:
 - Run the script with the required arguments:
   
       python packet_sniffer.py -i <interface>
-  Replace <interface> with your network interface (e.g., eth0, wlan0).
+  Replace <`interface`> with your network interface (e.g., `eth0` , `wlan0` ).
 
 
 
   - Example:
     
          python packet_sniffer.py -i eth0
-- Press Ctrl+C to stop the tool gracefully.
+- Press `Ctrl+C` to stop the tool gracefully.
   
 
 
@@ -77,6 +77,21 @@ To run this project, you need:
 ## Working
 - Packet Capture: The script listens to packets on the specified network interface using Scapy.
 - HTTP Monitoring: It checks for HTTP requests in the captured packets and extracts URLs.
-- Keyword Detection: Analyzes packet payloads for sensitive keywords such as username or password.
-- Formatted Output: The tool displays captured data with styled and color-coded formatting using the Rich library.
+- Keyword Detection: Analyzes packet payloads for sensitive keywords such as `username` or `password`.
+- Formatted Output: The tool displays captured data with styled and color-coded formatting using the `Rich` library.
 
+---
+
+
+## Future Enhancements
+- Add support for saving intercepted data to a file (CSV or JSON).
+- Implement HTTPS packet decryption (with proper permissions).
+- Expand keyword detection with a customizable list of terms.
+- Add multi-threading for more efficient packet processing.
+- Include support for analyzing non-HTTP protocols (e.g., FTP, DNS).
+
+
+---
+
+## Disclaimer
+This tool is for educational purposes only. Unauthorized packet capturing or intercepting network traffic without proper consent is illegal. Ensure you have permission to monitor any network you use this tool on. Use responsibly.
